@@ -3,7 +3,7 @@ agent any
 tools{
 maven'maven'
 }
-satges{
+stages{
 stage('Checkout'){
 steps{
 git branch:'master',url:"https://github.com/rheamanjunath/maven177.git"
